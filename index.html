@@ -7,8 +7,24 @@
     <meta name="robots" content="index,follow">
     <meta name="description" content="Juego de carreras y calaveras. Intenta no perder la cabeza!">
     <title>Skull Race | Gaming</title>
+    <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
-    
+    <main class="game-container">
+        <canvas id="game"></canvas>
+        <section class="buttons">
+            <button id="up">Up</button>
+            <button id="left">Left</button>
+            <button id="right">Right</button>
+            <button id="down">Down</button>
+        </section>
+        <section class="information">
+            <!--Information about life, time and records in the game-->
+            <p></p>
+        </section>
+
+        <script src="./maps.js"></script>
+        <script src="./index.js"></script>
+    </main>
 </body>
 </html>
