@@ -1,6 +1,6 @@
 /*
  * Reglas:
- * El final de cada nivel debe ser el inicio del siguiente
+ * El final de cada nivel debe ser el inicio del siguiente 🔥
 */
 
 const emojis = {
@@ -9,7 +9,7 @@ const emojis = {
     'X': '💣',
     'I': '🎁',
     'PLAYER': '💀',
-    'BOMB_COLLISION': '🔥',
+    'BOMB_COLLISION': '💥',
     'GAME_OVER': '👎',
     'WIN': '🏆',
     'HEART': '❤️',
@@ -51,4 +51,16 @@ const emojis = {
     XX-XXXXXXX
     XX-----OXX
     XXXXXXXXXX
+  `);
+  maps.push(`
+  ----XXX---
+  --X-X---X-
+  OX--X--XX-
+  X--X--X---
+  X----X--XX
+  XX-XX--XXX
+  X-X---X---
+  X---X---X-
+  ---X---XX-
+  IX---X---X
   `);
